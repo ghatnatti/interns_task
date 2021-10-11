@@ -1,31 +1,17 @@
 ## Please find some metadata around each columns.
 
-**max_return_days**: Maximum number of days in which user made a re-purchase
+**step**: Date of transaction
 
-**average_return_days**: Average number of days in which user made a purchase
+**customer**: Unique customer ID
 
-**customer_since_months** : No of months since user started paying
+**age** : Age of the customer
 
-**total_revenue**: Total revenue made from this user
+**gender**: Gender of the customer
 
-**average_revenue**: Average revenue made from this user
+**merchant**: Unique Merchant Id
 
-**avg_vas_count**: Average amount of vas counts
+**category**: Product category for which the transaction was made.
 
-**avg_used_vas_value**: Average number of vas used by the user
+**amount**: Amount of the transaction
 
-**business_type**: Business type
-
-**avg_wallet_bonus**: Average bonus amount in wallet
-
-**avg_active_ads**: Average no of active ads
-
-**avg_new_ads**: Average no of new ads
-
-**avg_email_replies**: Average no of email replies
-
-**avg_call_replies**: Average no of call replies
-
-**avg_sms_replies**: Average no of sms replies
-
-**target**: If user stays or leaves
+**fraud**: Fraud transaction status; 1=Fraud | 0= Not Fraud
